@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:src="@drawable/bg_header_nav"
+            android:scaleType="centerCrop"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/custom_circle_view"
+            android:src="@drawable/background05"
+            android:layout_marginTop="85dp"
+            android:layout_marginStart="20dp"/>
+
+        <TextView
+            android:id="@+id/tvuser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="dongnvph30597@fpt.edu.vn"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:layout_marginBottom="40dp"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/mali"
+            />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="Mã thủ thư: "
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/mali"
+            />
+
+        <TextView
+            android:layout_marginLeft="120dp"
+            android:id="@+id/tvuserma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="Mã "
+            android:textColor="#FF5722"
+            android:textSize="17dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/mali"
+            />
+    </FrameLayout>
+</LinearLayout>

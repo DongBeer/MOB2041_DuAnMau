@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="15dp"
+    android:elevation="10dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp">
+
+    <LinearLayout
+        android:background="#CEE7EA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            android:elevation="10dp">
+            <ImageView
+                android:id="@+id/imgTV"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/icon_member"/>
+        </androidx.cardview.widget.CardView>
+
+
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:textColor="#706F6F"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Member: "
+                    android:fontFamily="@font/mali"
+                    android:textSize="15dp"/>
+
+                <TextView
+                    android:id="@+id/tvTenTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/mali"
+                    android:text=" Doremon "
+                    android:textColor="@color/black"
+                    android:textSize="20dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp"
+                    android:fontFamily="@font/mali"
+                    android:text="Năm sinh: "
+                    android:textColor="#706F6F"
+                    android:textSize="15dp"/>
+
+                <TextView
+                    android:id="@+id/tvNamSinh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp"
+                    android:fontFamily="@font/mali"
+                    android:text=" 50000 "
+                    android:textColor="#03A9F4"
+                    android:textSize="17dp"
+                    android:inputType="number"
+                    android:layout_marginBottom="7dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp"
+                    android:fontFamily="@font/mali"
+                    android:text="Số TK: "
+                    android:textColor="#706F6F"
+                    android:textSize="15dp"/>
+
+                <TextView
+                    android:id="@+id/tvsoTK"
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp"
+                    android:text=" 50000 "
+                    android:textSize="17dp"
+                    android:inputType="number"
+                    android:layout_marginBottom="7dp"/>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/item_timtensach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="SÁCH"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/mali"
+        />
+
+    <TextView
+        android:id="@+id/item_tim_sltrang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:text="SỐ lượng trang"
+        android:textSize="20dp"
+        android:fontFamily="@font/mali"
+        android:textColor="#03A9F4"/>
+
+</LinearLayout>

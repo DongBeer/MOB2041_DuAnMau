@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="10dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    app:cardCornerRadius="15dp">
+
+    <LinearLayout
+        android:background="#E1F2FA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            android:elevation="5dp">
+            <ImageView
+                android:id="@+id/imgPm"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/icon_pm"/>
+        </androidx.cardview.widget.CardView>
+
+
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:textColor="#706F6F"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mã phiếu mượn:  "
+                    android:fontFamily="@font/mali"
+                    android:textSize="10dp"/>
+
+                <TextView
+                    android:id="@+id/tvMaPM"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/mali"
+                    android:text=" 1 "
+                    android:textColor="@color/black"
+                    android:textSize="15dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:textColor="#706F6F"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Thành Viên:  "
+                    android:fontFamily="@font/mali"
+                    android:textSize="12dp"/>
+
+                <TextView
+                    android:id="@+id/tvPMTenTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/mali"
+                    android:text=" Doremon "
+                    android:textColor="@color/black"
+                    android:textSize="15dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:textColor="#706F6F"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tên Sách:  "
+                    android:fontFamily="@font/mali"
+                    android:textSize="12dp"/>
+
+                <TextView
+                    android:id="@+id/tvPMTenSach"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/mali"
+                    android:text=" Doremon "
+                    android:textColor="@color/black"
+                    android:textSize="15dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp"
+                    android:fontFamily="@font/mali"
+                    android:text="Giá thuê:  "
+                    android:textColor="#706F6F"
+                    android:textSize="12dp"/>
+
+                <TextView
+                    android:id="@+id/tvPMGiathue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp"
+                    android:fontFamily="@font/mali"
+                    android:text=" 50000 "
+                    android:textColor="#03A9F4"
+                    android:textSize="15dp"
+                    android:layout_marginBottom="7dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:textColor="#706F6F"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ngày thuê:  "
+                    android:fontFamily="@font/mali"
+                    android:textSize="12dp"/>
+
+                <TextView
+                    android:id="@+id/tvPMNgaythue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/mali"
+                    android:text=" 20/02/2023 "
+                    android:textColor="@color/black"
+                    android:textSize="15dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:textColor="#706F6F"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Thủ thư:  "
+                    android:fontFamily="@font/mali"
+                    android:textSize="12dp"/>
+
+                <TextView
+                    android:id="@+id/tvPMmaTT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/mali"
+                    android:text=" Thuthu1 "
+                    android:textColor="@color/black"
+                    android:textSize="15dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:textColor="#706F6F"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Trạng thái trả:  "
+                    android:fontFamily="@font/mali"
+                    android:textSize="12dp"/>
+
+                <TextView
+                    android:id="@+id/tvPMTrangThai"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/mali"
+                    android:text=" Chưa trả sách "
+                    android:textColor="#23B52A"
+                    android:textSize="15dp"/>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

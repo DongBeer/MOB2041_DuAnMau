@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/ic_home"
+        android:title="Quản lí phiếu mượn"
+        android:icon="@drawable/ic_nav_home"
+        />
+
+    <item
+        android:id="@+id/ic_kind_of_book"
+        android:icon="@drawable/ic_kind_of_book"
+        android:title="Quản lí loại sách"/>
+    <item
+        android:id="@+id/ic_book"
+        android:icon="@drawable/ic_book"
+        android:title="Quản lí sách"/>
+    <item
+        android:id="@+id/ic_member"
+        android:icon="@drawable/ic_member"
+        android:title="Quản lí thành viên"/>
+
+    <item android:title="Thống kê"
+        >
+        <menu>
+            <item
+                android:id="@+id/ic_top_book"
+                android:icon="@drawable/ic_top_book"
+                android:title="Top 10 sách mượn nhiều nhất"
+                />
+            <item
+                android:id="@+id/ic_revenue"
+                android:icon="@drawable/ic_revenue"
+                android:title="Doanh thu"
+                />
+        </menu>
+    </item>
+    <item android:title="Người dùng">
+        <menu>
+            <item
+                android:id="@+id/ic_librarian"
+                android:title="Quản lí người dùng"
+                android:icon="@drawable/ic_librarian"
+                />
+            <item
+                android:id="@+id/ic_change_pass"
+                android:icon="@drawable/ic_change_pass"
+                android:title="Đổi mật khẩu"
+                />
+            <item
+                android:id="@+id/ic_exit"
+                android:icon="@drawable/ic_exit"
+                android:title="Đăng xuất"
+                />
+        </menu>
+    </item>
+</menu>

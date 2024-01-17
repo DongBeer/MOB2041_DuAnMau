@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FragmentTimSach">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_menu"
+            android:id="@+id/iconhomeTimSach"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tìm Sách theo số lượng trang"
+            android:fontFamily="@font/mali"
+            android:gravity="center"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="SÁCH"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/mali"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:text="Số lượng trang sách"
+            android:textSize="20sp"
+            android:fontFamily="@font/mali"
+            android:textColor="#03A9F4"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/timsach_listview"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="5dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout2"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edTimSl"
+            android:fontFamily="@font/mali"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:hint="Số lượng trang sách" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnTim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tìm"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:backgroundTint="#FF5722"/>
+
+
+
+
+
+</LinearLayout>
